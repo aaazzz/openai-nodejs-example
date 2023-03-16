@@ -8,7 +8,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const messages = [
-  { role: 'user', content: 'Hello, my name is Akira. What your name?' },
+  { role: 'user', content: 'Hello, my name is Akira. What is your name?' },
 ];
 
 (async () => {
